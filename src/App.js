@@ -1,25 +1,25 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import EmailSubmissionForm from './components/EmailSubmissionForm';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+      <div>
+      <h1 className="App-title">CupboarTory
+      </h1>
+      <p className="App-intro">
+      Create a Personal Inventory of any items in your Home
+      <br/>From your Knick Knacks to your Cupboard!
+      <br/>All Carefully Added by You and Stored in Cupboartory!
+      <br />
+      <br/>
+      <br />
+      Enter your Email & 
+      <br/>Become a Beta Tester! 
+      <EmailSubmissionForm />
+      </p>
       </div>
     );
   }
