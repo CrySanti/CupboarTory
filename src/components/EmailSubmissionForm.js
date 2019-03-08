@@ -23,7 +23,6 @@ class EmailSubmissionForm extends React.Component {
     render() {
         return (
             <div>
-
             <Form onSubmit={this.handleSubmit}>
             <Form.Input
                 name="Email Address" 

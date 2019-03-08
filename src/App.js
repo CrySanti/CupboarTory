@@ -16,7 +16,7 @@ class App extends Component {
       <br />
       <br/>
       <br />
-      Enter your Email & 
+      Enter your Email &  
       <br/>Become a Beta Tester! 
       <EmailSubmissionForm />
       </p>
